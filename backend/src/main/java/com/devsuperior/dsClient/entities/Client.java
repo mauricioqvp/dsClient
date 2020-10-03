@@ -28,11 +28,13 @@ public class Client implements Serializable {
 	private Instant birthDate;
 	private Integer children;
 	
+	/*
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant createdAt;
 	
 	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
 	private Instant updatedAt;
+	*/
 
 	public Client() {
 	}
@@ -94,6 +96,7 @@ public class Client implements Serializable {
 		this.children = children;
 	}
 
+	/*
 	public Instant getCreatedAt() {
 		return createdAt;
 	}
@@ -111,6 +114,7 @@ public class Client implements Serializable {
 	public void preUpdate() {
 		updatedAt = Instant.now();
 	}
+	*/
 
 	@Override
 	public int hashCode() {
