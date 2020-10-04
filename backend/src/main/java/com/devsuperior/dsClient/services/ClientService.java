@@ -1,6 +1,5 @@
 package com.devsuperior.dsClient.services;
 
-import java.util.List;
 import java.util.Optional;
 
 import javax.persistence.EntityNotFoundException;
@@ -25,8 +24,15 @@ public class ClientService {
 	@Autowired
 	private ClientRepository repository;
 	
-	public List<Client>findAll() {
+/*	public List<Client>findAll() {
 		return repository.findAll();
+	}
+*/
+
+	@Transactional(readOnly = true)
+	public Page<ClientDTO> findAllPaged(PageRequest pageRequest) {
+		Page<Client> list = repository.findAll(pageRequest);
+		return list.map(x -> new ClientDTO(x));
 	}
 	
 	@Transactional(readOnly = true)
@@ -78,9 +84,4 @@ public class ClientService {
 		}
 	}
 
-	@Transactional(readOnly = true)
-	public Page<ClientDTO> findAllPaged(PageRequest pageRequest) {
-		Page<Client> list = repository.findAll(pageRequest);
-		return list.map(x -> new ClientDTO(x));
-	}
 }

@@ -1,7 +1,6 @@
 package com.devsuperior.dsClient.resources;
 
 import java.net.URI;
-import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -20,7 +19,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import com.devsuperior.dsClient.dto.ClientDTO;
-import com.devsuperior.dsClient.entities.Client;
 import com.devsuperior.dsClient.services.ClientService;
 
 @RestController

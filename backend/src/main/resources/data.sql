@@ -1,1 +1,10 @@
-INSERT INTO tb_client (name, CPF, income, birth_Date, children) VALUES ('mauricio', '905', 1200.01, TIMESTAMP WITH TIME ZONE '2020-07-13T20:50:07.12345Z', 3);
+INSERT INTO tb_client (name, CPF, income, birth_Date, children) VALUES ('Maria Silva', '12345678901', 5513.84, TIMESTAMP WITH TIME ZONE '1994-07-20T10:30:00Z', 2);
+INSERT INTO tb_client (name, CPF, income, birth_Date, children) VALUES ('Luis Felipe', '5703874734', 7295.25, TIMESTAMP WITH TIME ZONE '1994-07-20T10:30:00Z', 2);
+INSERT INTO tb_client (name, CPF, income, birth_Date, children) VALUES ('Aline Moreira', '1616686253', 1266.47, TIMESTAMP WITH TIME ZONE '1994-07-20T10:30:00Z', 2);
+INSERT INTO tb_client (name, CPF, income, birth_Date, children) VALUES ('Carlos José da Silva', '874164612', 6984.79, TIMESTAMP WITH TIME ZONE '1994-07-20T10:30:00Z', 2);
+INSERT INTO tb_client (name, CPF, income, birth_Date, children) VALUES ('Fernando Soaeres', '4614922527', 1653.4, TIMESTAMP WITH TIME ZONE '1994-07-20T10:30:00Z', 2);
+INSERT INTO tb_client (name, CPF, income, birth_Date, children) VALUES ('Matheu do Andrade', '2819839393', 5050.19, TIMESTAMP WITH TIME ZONE '1994-07-20T10:30:00Z', 2);
+INSERT INTO tb_client (name, CPF, income, birth_Date, children) VALUES ('Rômulo Paixão Soares', '5322883913', 2529.68, TIMESTAMP WITH TIME ZONE '1994-07-20T10:30:00Z', 2);
+INSERT INTO tb_client (name, CPF, income, birth_Date, children) VALUES ('Pâmela Aline do Carmo', '6451102586', 9562.69, TIMESTAMP WITH TIME ZONE '1994-07-20T10:30:00Z', 2);
+INSERT INTO tb_client (name, CPF, income, birth_Date, children) VALUES ('Dromedálio Souza', '3924968990', 9924.17, TIMESTAMP WITH TIME ZONE '1994-07-20T10:30:00Z', 2);
+INSERT INTO tb_client (name, CPF, income, birth_Date, children) VALUES ('Lucar Ernandes', '2019446817', 7391.36, TIMESTAMP WITH TIME ZONE '1994-07-20T10:30:00Z', 2);
